@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+  </head>
+  <body>
+    <h1>Tables in HTML</h1>
+    <hr />
+    <table border="">
+      <caption>Table Demonstration</caption>
+      <colgroup>
+        <col span="2" style="background-color: aqua;">
+        <col span="2" style="background-color: chartreuse;">
+      </colgroup>
+      <thead>
+        <tr>
+          <th>COL 1</th>
+          <th>COL 2</th>
+          <th>COL 3</th>
+          <th>COL 4</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="border: tomato;">1</td>
+          <td>2</td>
+          <td>3</td>
+          <td rowspan="2">4</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>14</td>
+          <td>15</td>
+          <td>16</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>ABC</td>
+          <td>DEF</td>
+          <td>HJK</td>
+          <td>LMN</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
